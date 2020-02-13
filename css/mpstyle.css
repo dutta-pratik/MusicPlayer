@@ -1,0 +1,468 @@
+/************************************/
+/*mediaquery MP*/
+
+@media screen and (max-width: 1225px){
+	.time-start{
+		left:7% !important;
+	}
+}
+@media screen and (max-width: 995px){
+	
+	.time-start{
+		display: none;
+	}
+	.time-end{
+		display: none;
+	}
+}
+@media screen and (max-width: 890px){
+	
+	.like-block-layout{
+		width: auto !important;
+	}
+	.mp-like{
+		width: 80% !important;
+		height: 50% !important;
+	}
+	.mp-block{
+		width: 80% !important;
+		height: 50% !important;
+		top: 50% !important;
+		margin-left: 10% !important;
+	}
+	.fav-queue-layout{
+		width: auto !important;
+	}
+	.mp-queue{
+		width: 80% !important;
+		height: 50% !important;
+	}
+	.mp-speaker{
+		width: 80% !important;
+		height: 50% !important;
+		top: 50% !important;
+		margin-left: 10% !important;
+	}
+
+	.frwd-btn{
+		position: absolute;
+		top: 5px;
+		left: 58% !important;
+		right: 40%;
+	}
+	.rpt-btn{
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 5px;
+		left: 65% !important;
+	}
+}
+
+@media screen and (max-width: 750px){
+	
+	.mp-img{
+		visibility: hidden;
+		display: none;
+		width: 0px !important;
+	}
+	.randm-btn{
+		left: 30% !important;
+	}
+	.frwd-btn{
+		left: 62% !important;
+	}
+	.rpt-btn{
+		left: 70% !important;
+	}
+	.bck-btn{
+		left: 40% !important;
+	}
+	.pause-btn{
+		left: 48% !important/*240px*/;
+	}
+}
+
+@media screen and (max-width: 645px){
+	
+	.frwd-btn{
+		left: 64% !important;
+	}
+	.rpt-btn{
+		left: 71% !important;
+	}
+	.randm-btn{
+		left: 25% !important;
+	}
+	.bck-btn{
+		left: 36% !important;
+	}
+	.pause-btn{
+		left: 45% !important/*240px*/;
+	}
+	.frwd-btn{
+		left: 62% !important;
+	}
+}
+
+@media screen and (max-width: 531px){
+	
+	.mp-main-layout{
+		margin-left: 10px !important;
+
+	}
+	.mp-song-desc{
+		width: 11% !important;
+	}
+	.like-block-layout{
+		visibility: hidden;
+		display: none;
+		width: 0px !important;
+	}
+	.fav-queue-layout{
+		visibility: hidden;
+		display: none;
+
+		width: 0px !important;
+	}
+	.mp-song-desc{
+		border: 1px solid red;
+		margin-right: 0% !important;
+		right: 0px !important
+		/*margin-right: 9%;*/
+		/*position: absolute;*/
+	}
+	.mp-layout{
+		width: 50% !important;
+		margin-right: 0% !important;
+		margin-left: -1.8% !important;
+		left: -10px !important;
+	}
+	.music-sound{
+		margin-left: -1.3% !important;
+	}
+	.screen-size{
+		margin-left: -10px !important;
+	}
+
+}
+@media screen and (max-width: 448px){
+	body{
+		background-color: blue;
+	}
+	.sound-line-layout{
+		visibility: hidden;
+		display: none;
+	}
+	.mp-layout{
+		width: 60% !important;
+		margin-right: 0% !important;
+		margin-left: -1.8% !important;
+		left: -10px !important;
+	}
+	.music-sound{
+		width: 15px !important;
+	}
+	.screen-size{
+		margin-left: -10px !important;
+	}
+}
+/*************************************/
+
+
+.mp-bg{
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #222123;
+	position: fixed;
+	top: 87.3%;
+	left: -0.4px;
+	color: white;
+	display: flex;
+	/*align-self: center;*/
+	align-items: center;
+	justify-content: center;
+}
+
+.mp-main-layout{
+	/*position: relative;*/
+	width: 100%;
+	height: 65px;
+	border: 1px solid orange;
+	margin-left: 45px;
+	/*display: inline-block;*/
+	/*display: flex;
+	justify-content: center;
+	align-self: center;*/
+
+}
+/****************************************/
+.mp-img{
+	height: 100%;
+	width: 5%;
+	border: 1px solid blue;
+	display: inline-block;
+	margin-right: 0.3%;
+	/*position: absolute;*/
+	/*margin-right: 10px;*/
+}
+/*****************************************/
+.mp-song-desc{
+	height: 100%;
+	width: 8%;
+	border: 1px solid red;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 1.5%;
+	/*margin-right: 9%;*/
+	/*position: absolute;*/
+}
+
+.mp-song-name{
+	width: 100%;
+	height: 30%;
+	border: 1px solid white;
+	margin-top: 6%;
+	margin-bottom: 7%;
+	overflow: hidden;
+	font-size: 1rem;
+}
+
+.mp-song-art-name{
+	width: 100%;
+	height: 30%;
+	border: 1px solid white;
+	font-size: 0.75rem;
+	color: #909173;
+}
+/*****************************************/
+.like-block-layout{
+	position: relative;
+	height: 100%;
+	width: 5%;
+	border: 1px solid green;
+	display: inline-block;
+	color: #909173;
+	margin-right: 4.5%;
+}
+
+.mp-like{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	border: 1px solid blue;
+	margin-top: 9%;
+	margin-left: 10%;
+	
+}
+
+.mp-block{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	border: 1px solid blue;
+	margin-top: 9%;
+	margin-left: 55%;
+	
+}
+/****************************************/
+.time-start{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #909173;
+	margin: 5px 0px;	
+	left: 10%; 
+}
+.time-end{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #909173;
+	margin: 5px 0px;
+	left: 87%; 
+}
+.mp-layout{
+	/*position: relative;*/
+	height: 100%;
+	width: 40%;
+	border: 1px solid white;
+	display: inline-block;
+	margin-right: 3.5%;
+}
+.mp-control{
+	position: relative;
+	width: 100%;
+	height: 53%;
+	border: 1px solid orange;
+	display: flex;
+}
+.pause-btn{
+	/*width: 20px;
+	height: 20px;
+	border: 1px solid white;*/
+	position: absolute;
+	left: 45.5%/*240px*/;
+}
+.frwd-btn{
+	position: absolute;
+	top: 5px;
+	left: 56%;
+	right: 40%;
+}
+.bck-btn{
+	position: absolute;
+	top: 5px;
+	left: 38.5%;
+}
+.rpt-btn{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 63%;
+}
+.randm-btn{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 3px;
+	left: 31.7%;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.progress-layout{
+	position: relative;
+	width: 100%;
+	height: 53%;
+	border: 1px solid green;
+	display: flex;
+}
+.center{
+	margin-left: -25px;
+}
+.half-progress-line{
+	position: relative;
+	top: -1px;
+	left: -1px;
+	width: 40%;
+	height: 54%;
+	border: 1.4px solid green;
+	background-color: green;
+	display: flex;
+}
+.dot-progress{
+	margin-top: -13px;
+	margin-left: 41%;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 1px 1px black;
+	border-radius: 50%;
+	z-index: 1;
+}
+/*****************************************/
+.fav-queue-layout{
+	position: relative;
+	height: 100%;
+	width: 5.7%;
+	border: 1px solid green;
+	display: inline-block;
+	color: #909173;
+	margin-right: 2.5%;
+}
+.mp-queue{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	border: 1px solid blue;
+	margin-top: 9%;
+	margin-left: 10%;
+}
+.mp-speaker{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	border: 1px solid blue;
+	margin-top: 9%;
+	margin-left: 55%;
+}
+/*****************************************/
+.music-sound{
+	position: relative;
+	height: 100%;
+	width: 100px;
+	border: 1px solid red;
+	display: inline-block;
+	margin-right: 1.5%;
+}
+.sound-ico{
+	position: absolute;
+	height: 30%;
+	width: 10%;
+	top: 25%;
+	border: 1px solid green;
+	display: inline-block;
+	margin-left: 5%;
+	color: #909173;
+}
+.sound-line-layout{
+	position: relative;
+	top: 26%;
+	left: 20%;
+	width: 70%;
+	height: 20px;
+	border: 1px solid white;
+	
+}
+.progress-line{
+	position: absolute;
+	top: 36%;
+	left: 20%;
+	width: 70%;
+	height: 1.2px;
+	border: 1px solid white;
+	border-radius: 32%;
+	background-color: white;
+}
+.comp-progress-line{
+	position: absolute;
+	top: 36%;
+	left: 20%;
+	width: 30%;
+	height: 1.2px;
+	border: 1.2px solid green;
+	border-radius: 32%;
+	background-color: green;
+}
+.dot-progress-line{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 0px 1px 1px 1px black;
+	position: absolute;
+	top: 15%;
+	left: 41%;
+}
+/***************************************/
+.screen-size{
+	position: relative;
+	height: 100%;
+	width: 1.5%;
+	border: 1px solid blue;
+	display: inline-block;
+}
+.resize{
+	position: absolute;
+	height: 30%;
+	width: 90%;
+	top: 25%;
+	border: 1px solid green;
+	display: inline-block;
+	margin-left: 5%;
+	color: #909173;
+}
